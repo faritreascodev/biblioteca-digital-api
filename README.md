@@ -18,6 +18,10 @@ REST API para gestión de biblioteca digital con Node.js, Express y MongoDB.
 ```
 git clone https://github.com/faritreascodev/biblioteca-digital-api.git
 cd biblioteca-digital-api
+
+# Configurar variables de entorno
+cp .env.example .env
+
 docker-compose up -d
 ```
 
